@@ -36,7 +36,7 @@ jobs:
         run: echo "TODO"
       # https://github.com/github/codeql-action/blob/main/upload-sarif/action.yml
       - name: Upload SARIF files to PR
-        uses: github/codeql-action/upload-sarif@master
+        uses: github/codeql-action/upload-sarif@75af0bf3095404dfdcaaa3ec1f39b58263c1752e
         with:
           sarif_file: path/to/sarif/dir
       - name: Zip artifacts
